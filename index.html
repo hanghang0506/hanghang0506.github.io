@@ -439,7 +439,7 @@ ul{list-style:none}
 <!-- CUSTOM CURSOR -->
   <div class="loading-sub" data-i18n="loading">LOADING</div>
 </div>
-<script>setTimeout(function(){var e=document.getElementById('loading-screen');if(e)e.classList.add('hidden');},2500);if(document.readyState!=='loading')setTimeout(function(){var e=document.getElementById('loading-screen');if(e)e.classList.add('hidden');},2000);</script>
+<script>var ls=document.getElementById('loading-screen');if(ls)setTimeout(function(){ls.style.display='none';},1500);</script>
 <!-- CUSTOM CURSOR -->
 .bento-item.size-lg{grid-column:span 2;grid-row:span 1;padding:28px 16px}
 .bento-item.size-md{grid-column:span 1;grid-row:span 1}

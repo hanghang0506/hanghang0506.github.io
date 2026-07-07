@@ -434,7 +434,13 @@ ul{list-style:none}
 .bento-item[data-skill="Python"]:hover{background:rgba(53,114,165,0.12)}
 .bento-item[data-skill="Git"]:hover{background:rgba(240,80,51,0.12)}
 .bento-item[data-skill="Docker"]:hover{background:rgba(13,109,186,0.12)}
-
+  <div class="loading-sub" data-i18n="loading">LOADING</div>
+</div>
+<!-- CUSTOM CURSOR -->
+  <div class="loading-sub" data-i18n="loading">LOADING</div>
+</div>
+<script>setTimeout(function(){var e=document.getElementById('loading-screen');if(e)e.classList.add('hidden');},2500);if(document.readyState!=='loading')setTimeout(function(){var e=document.getElementById('loading-screen');if(e)e.classList.add('hidden');},2000);</script>
+<!-- CUSTOM CURSOR -->
 .bento-item.size-lg{grid-column:span 2;grid-row:span 1;padding:28px 16px}
 .bento-item.size-md{grid-column:span 1;grid-row:span 1}
 .bento-item.size-sm{grid-column:span 1;grid-row:span 1;padding:16px 12px}
